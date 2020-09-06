@@ -14,6 +14,7 @@ public class LimitConfigurationResource {
 	Cofiguration cofiguration;
 	
 	@GetMapping("/limitConfig")
+	//Testing
 	public LimitConfiguration retriveLimitConfiguration() {
 		return new LimitConfiguration(cofiguration.getMaximum(),cofiguration.getMinimum());
 	}
