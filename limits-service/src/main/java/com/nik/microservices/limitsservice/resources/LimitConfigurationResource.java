@@ -12,7 +12,7 @@ public class LimitConfigurationResource {
 
 	@Autowired
 	Cofiguration cofiguration;
-	
+	//Test for Git Merge/Rebase
 	@GetMapping("/limitConfig")
 	//Testing
 	public LimitConfiguration retriveLimitConfiguration() {
