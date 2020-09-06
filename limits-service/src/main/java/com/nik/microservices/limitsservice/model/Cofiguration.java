@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties("limits-service")
 public class Cofiguration {
-
+	//This is the model class.
 	private int minimum;
 	private int maximum;
 	
