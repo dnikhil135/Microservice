@@ -14,6 +14,7 @@ public class LimitConfigurationResource {
 	Cofiguration cofiguration;
 	//Test for Git Merge/Rebase
 	@GetMapping("/limitConfig")
+	//Testing
 	public LimitConfiguration retriveLimitConfiguration() {
 		return new LimitConfiguration(cofiguration.getMaximum(),cofiguration.getMinimum());
 	}
